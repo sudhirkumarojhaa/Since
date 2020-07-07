@@ -1,0 +1,6 @@
+module Pods_Since {
+  umbrella header "Pods-Since-umbrella.h"
+
+  export *
+  module * { export * }
+}

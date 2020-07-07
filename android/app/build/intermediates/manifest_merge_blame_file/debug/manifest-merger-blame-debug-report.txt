@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.since"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/jamessudhir/Documents/Current/Since/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/jamessudhir/Documents/Current/Since/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/jamessudhir/.gradle/caches/transforms-2/files-2.1/f516cf56f3839d3c647fdde3533cc818/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/jamessudhir/.gradle/caches/transforms-2/files-2.1/f516cf56f3839d3c647fdde3533cc818/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:6:5-38:19
+16        android:name="com.since.MainApplication"
+16-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:7:7-38
+17        android:allowBackup="false"
+17-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:11:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/jamessudhir/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:9:7-41
+21        android:label="@string/app_name"
+21-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:8:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:10:7-52
+23        android:theme="@style/AppTheme"
+23-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:12:7-38
+24        android:usesCleartextTraffic="true" >
+24-->/Users/jamessudhir/Documents/Current/Since/android/app/src/debug/AndroidManifest.xml:7:18-53
+25        <activity
+25-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:13:7-24:18
+26            android:name="com.since.MainActivity"
+26-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:14:9-37
+27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+27-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:16:9-86
+28            android:exported="true"
+28-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:19:9-32
+29            android:label="@string/app_name"
+29-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:15:9-41
+30            android:launchMode="singleTask"
+30-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:17:9-40
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:18:9-51
+32
+33            <!--
+34        <intent-filter>
+35            <action android:name="android.intent.action.MAIN" />
+36            <category android:name="android.intent.category.LAUNCHER" />
+37        </intent-filter>
+38            -->
+39        </activity>
+40        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" /> <!-- add the following lines (use the theme you created at step 3) -->
+40-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:25:7-84
+40-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:25:17-81
+41        <activity
+41-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:27:5-35:16
+42            android:name="com.zoontek.rnbootsplash.RNBootSplashActivity"
+42-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:28:7-67
+43            android:launchMode="singleTask"
+43-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:30:7-38
+44            android:theme="@style/BootTheme" >
+44-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:29:7-39
+45            <intent-filter>
+45-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:31:7-34:23
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:32:9-61
+46-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:32:17-58
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:33:9-69
+48-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:33:19-66
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>

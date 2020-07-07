@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.since"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:6:5-38:19
+14        android:name="com.since.MainApplication"
+14-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:7:7-38
+15        android:allowBackup="false"
+15-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:11:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] /Users/jamessudhir/.gradle/caches/transforms-2/files-2.1/6e813fa6b8fc8b59c3519258210e2a27/core-1.0.1/AndroidManifest.xml:22:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:8:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:10:7-52
+20        android:theme="@style/AppTheme" >
+20-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:12:7-38
+21        <activity
+21-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:13:7-24:18
+22            android:name="com.since.MainActivity"
+22-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:14:9-37
+23            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+23-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:16:9-86
+24            android:exported="true"
+24-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:19:9-32
+25            android:label="@string/app_name"
+25-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:15:9-41
+26            android:launchMode="singleTask"
+26-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:17:9-40
+27            android:windowSoftInputMode="adjustResize" >
+27-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:18:9-51
+28
+29            <!--
+30        <intent-filter>
+31            <action android:name="android.intent.action.MAIN" />
+32            <category android:name="android.intent.category.LAUNCHER" />
+33        </intent-filter>
+34            -->
+35        </activity>
+36        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+36-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:25:7-84
+36-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:25:17-81
+37        <!-- add the following lines (use the theme you created at step 3) -->
+38        <activity
+38-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:27:5-35:16
+39            android:name="com.zoontek.rnbootsplash.RNBootSplashActivity"
+39-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:28:7-67
+40            android:launchMode="singleTask"
+40-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:30:7-38
+41            android:theme="@style/BootTheme" >
+41-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:29:7-39
+42            <intent-filter>
+42-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:31:7-34:23
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:32:9-61
+43-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:32:17-58
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:33:9-69
+45-->/Users/jamessudhir/Documents/Current/Since/android/app/src/main/AndroidManifest.xml:33:19-66
+46            </intent-filter>
+47        </activity>
+48
+49        <!-- … -->
+50    </application>
+51
+52</manifest>

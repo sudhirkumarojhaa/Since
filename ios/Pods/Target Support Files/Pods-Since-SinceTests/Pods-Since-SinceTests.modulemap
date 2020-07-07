@@ -1,0 +1,6 @@
+module Pods_Since_SinceTests {
+  umbrella header "Pods-Since-SinceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
