@@ -27,7 +27,6 @@ const Logic = () => {
   const [toggle, setToggle] = useState(false);
   const [name, setName] = useState('');
   const [userName, setUserName] = useState('');
-  console.log(userName);
 
   const saveData = () => {
     if (item) {
@@ -53,10 +52,10 @@ const Logic = () => {
   const renderItem = (itemValue) => {
     return (
       <Animatable.View
-        animation="lightSpeedIn"
+        animation="flipInX"
         easing="ease"
         iterationCount={1}
-        style={[styles.title]}>
+        >
         <View style={[styles.list, styles.row, styles.btw]}>
           <Text style={styles.lg}>{itemValue.item.item}</Text>
           <View style={styles.end}>
@@ -101,13 +100,7 @@ const Logic = () => {
               {moment().format('MMMM DD YYYY')}
             </Text>
           </Animatable.View>
-          <Text
-            style={styles.icon}
-            onPress={() => {
-              setShow(!show);
-            }}>
-            +
-          </Text>
+          <Text style={[styles.sm,styles.white]}>Total Items: {data.length}</Text>
         </View>
         {!show ? (
           <View style={styles.search}>
@@ -123,6 +116,7 @@ const Logic = () => {
       </View>
       <View style={styles.content}>
         <View style={styles.shapes} />
+        <Text style={styles.icon} onPress={() => { setShow(!show);}}> + </Text>
         {data && data.length ? (
           <FlatList
             renderItem={(id) => renderItem(id)}
@@ -136,11 +130,11 @@ const Logic = () => {
             easing="ease-in"
             iterationCount={1}
             style={styles.center}>
-            <Text style={styles.title}>Welcome to Since</Text>
+            <Text style={[styles.title,{color: colorCode.text}]}>Welcome to Since</Text>
             <Text style={styles.intro}>
               Add any activity which you tend to forget over time and since will
               store the date and time for your reference. Go Ahead, Create your
-              first activity by clicking on the add icon in the header.
+              first activity by clicking on the add icon.
             </Text>
           </Animatable.View>
         )}
